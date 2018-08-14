@@ -1,0 +1,44 @@
+body {
+    font-size: 24px;
+}
+
+#gifsDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    padding: 35px;
+    background: darkorange;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background: royalblue;
+    color: navajowhite;
+    width: 100px;
+    margin: 4px 2px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px 50px;
+}
+
+.btn {
+    padding: 10px;
+    background: royalblue;
+    color: navajowhite;
+    width: 150px;
+    margin: 4px 2px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px 50px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Food Pron</title>
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Assets/photos/taco.ico" />
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/reset.css" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/style.css" />
+    
+</head>
+<body>
+
+        <div class="fluid-container">
+                <h1>Food Search!</h1>
+            
+                <div id="buttons-view"></div>
+            
+                <form id="food-form">
+                  <label for="food-input">Pick Your Favorite Food!</label>
+                  <input type="text" id="food-input">
+                  <br>
+            
+                  <!-- Button triggers new food to be added -->
+                  <input class="btn" id="add-food" type="submit" value="Order Up!">
+                </form>
+            
+                <div Id="gifsDiv"></div>
+
+                <div class="food-container" id="foods-view"></div>
+              </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Javascript -->
+    <script src="Assets/gif-script.js"></script>
+</body>
+</html>
